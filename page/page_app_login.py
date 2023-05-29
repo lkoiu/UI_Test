@@ -1,5 +1,4 @@
 from time import sleep
-
 import page
 from base.base import Base
 
@@ -19,11 +18,11 @@ class PageAppLogin(Base):
         self.base_click(page.app_login_link)
 
     # 3、输入用户名
-    def page_app_input_username(self,username):
+    def page_app_input_username(self, username):
         self.base_input(page.app_username, username)
 
     # 4、输入密码
-    def page_app_input_pwd(self,pwd):
+    def page_app_input_pwd(self, pwd):
         self.base_input(page.app_pwd, pwd)
 
     # 5、点击勾选协议
@@ -40,10 +39,10 @@ class PageAppLogin(Base):
         return self.base_get_text(page.app_nickname)
 
     # 8、组合业务方法
-    def page_app_login(self,username="13600001111",pwd="123456"):
-     self.page_app_click_me()
-     self.page_app_click_login_link()
-     self.page_app_input_username(username)
-     self.page_app_input_pwd(pwd)
-     self.page_app_click_pro()
-     self.page_app_click_login_btn()
+    def page_app_login(self, username="13600001111", pwd="123456"):
+        self.page_app_click_me()
+        self.page_app_click_login_link()
+        self.page_app_input_username(username)
+        self.page_app_input_pwd(pwd)
+        self.page_app_click_pro()
+        self.page_app_click_login_btn()

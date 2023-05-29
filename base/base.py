@@ -1,16 +1,14 @@
 import os
 import time
-
 from selenium.webdriver.support.wait import WebDriverWait
-
 from base import log
 from config import DIR_PATH
 
-
 class Base:
-
     # 初始化方法
+    # 同时添加日志，对每一次的操作进行进路，便于回滚
     def __init__(self, driver):
+        # 初始化，将web或app的初始化放入
         log.info("正在初始化，driver对象：{}".format(driver))
         self.driver = driver
 

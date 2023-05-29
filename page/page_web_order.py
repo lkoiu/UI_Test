@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-
-import page, time
+import page
+import time
 from base.base import Base
 from util import read_json
 

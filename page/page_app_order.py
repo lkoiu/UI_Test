@@ -15,9 +15,9 @@ class PageAppOrder(Base):
         self.base_click(page.app_order_search_text1)
 
     # 输入搜索内容
-    def page_app_input_search_text(self,value="小米"):
+    def page_app_input_search_text(self, value="小米"):
         sleep(1)
-        self.base_input(page.app_order_search_text1,value)
+        self.base_input(page.app_order_search_text1, value)
 
     # 点击搜索按钮
     def page_app_click_search_btn(self):
@@ -60,9 +60,9 @@ class PageAppOrder(Base):
         self.base_click(page.app_order_now_pay)
 
     # 输入 密码
-    def page_app_input_pwd(self,pwd="123456"):
+    def page_app_input_pwd(self, pwd="123456"):
         sleep(1)
-        self.base_input(page.app_pwd,pwd)
+        self.base_input(page.app_pwd, pwd)
 
     # 点击确定
     def page_app_click_sure(self):
@@ -75,7 +75,7 @@ class PageAppOrder(Base):
         return self.base_get_text(page.app_order_no)
 
     # 下单业务方法
-    def page_app_order(self,search_value="小米", pwd="123456"):
+    def page_app_order(self, search_value="小米", pwd="123456"):
         self.page_app_click_index()
         self.page_app_click_search_text()
         self.page_app_input_search_text(search_value)
