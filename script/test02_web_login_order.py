@@ -1,6 +1,6 @@
 import unittest
 from time import sleep
-# import page
+import page
 from base import log
 from page.page_web_login import PageWebLogin
 from page.page_web_order import PageWebOrder

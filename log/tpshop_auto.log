@@ -395,3 +395,43 @@ Backtrace:
 	RtlGetAppContainerNamedObjectPath [0x77E97B1E+238]
 
 2023-05-29 16:52:03,382 INFO [base.py(base_get_img:44)] - 正调用截图方法
+2023-05-29 20:12:28,074 INFO [selenium_manager.py(run:115)] - Executing: D:\LearnAPP\python\lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json
+2023-05-29 20:12:36,321 INFO [base.py(__init__:12)] - 正在初始化，driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="822155f7bfbdac81fe71c513cbd5262b")>
+2023-05-29 20:12:36,321 INFO [base.py(__init__:12)] - 正在初始化，driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="822155f7bfbdac81fe71c513cbd5262b")>
+2023-05-29 20:12:36,321 INFO [base.py(base_input:27)] - 正调用输入元素方法：('css selector', "[name='username']") 输入内容：admin
+2023-05-29 20:12:36,321 INFO [base.py(base_find:17)] - 正在查找元素：('css selector', "[name='username']")
+2023-05-29 20:12:36,412 INFO [base.py(base_input:27)] - 正调用输入元素方法：('css selector', "[name='password']") 输入内容：123456
+2023-05-29 20:12:36,412 INFO [base.py(base_find:17)] - 正在查找元素：('css selector', "[name='password']")
+2023-05-29 20:12:36,476 INFO [base.py(base_input:27)] - 正调用输入元素方法：('css selector', "[name='vertify']") 输入内容：8888
+2023-05-29 20:12:36,476 INFO [base.py(base_find:17)] - 正在查找元素：('css selector', "[name='vertify']")
+2023-05-29 20:12:36,545 INFO [base.py(base_click:22)] - 正调用点击元素：('css selector', "[name='submit']")
+2023-05-29 20:12:36,545 INFO [base.py(base_find:17)] - 正在查找元素：('css selector', "[name='submit']")
+2023-05-29 20:12:36,717 INFO [base.py(base_get_text:37)] - 正调用获取元素信息方法：('css selector', '.bgdopa-t')
+2023-05-29 20:12:36,717 INFO [base.py(base_find:17)] - 正在查找元素：('css selector', '.bgdopa-t')
+2023-05-29 20:12:47,144 ERROR [test02_web_login_order.py(test01_web_login_order:36)] - Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00388893+48451]
+	(No symbol) [0x0031B8A1]
+	(No symbol) [0x00225058]
+	(No symbol) [0x00250467]
+	(No symbol) [0x0025069B]
+	(No symbol) [0x0027DD92]
+	(No symbol) [0x0026A304]
+	(No symbol) [0x0027C482]
+	(No symbol) [0x0026A0B6]
+	(No symbol) [0x00247E08]
+	(No symbol) [0x00248F2D]
+	GetHandleVerifier [0x005E8E3A+2540266]
+	GetHandleVerifier [0x00628959+2801161]
+	GetHandleVerifier [0x0062295C+2776588]
+	GetHandleVerifier [0x00412280+612144]
+	(No symbol) [0x00324F6C]
+	(No symbol) [0x003211D8]
+	(No symbol) [0x003212BB]
+	(No symbol) [0x00314857]
+	BaseThreadInitThunk [0x779200C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77E97B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E97B1E+238]
+
+2023-05-29 20:12:47,144 INFO [base.py(base_get_img:42)] - 正调用截图方法

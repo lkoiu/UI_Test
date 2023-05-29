@@ -1,0 +1,24 @@
+1、依赖库
+os
+time
+WebDriverWait
+DIR_PATH
+By
+unittest
+config
+parameterized
+
+2、文件目录
+base：存放底层所有需要执行的函数
+	__init__.py:对日志函数进行实例化
+	base.py:存放查找、点击、输入元素等底层方法
+data：存放执行所需的数据，便于数据驱动
+	app_order.json：存放app项目测试时输入的信息
+	expect.json：存放预期的结果，用于断言
+img：存放截取的图片
+log：日志文件
+page：操作步骤
+	__init__.py:存放所有操作步骤需要的数据，主要是元素的定位
+script：
+config.py：基本配置：web网址，项目路径
+util.py：全局操作：连接web网址，连接虚拟机app，读写json文件，日志封装
